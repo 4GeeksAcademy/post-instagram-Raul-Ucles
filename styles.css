@@ -1,0 +1,56 @@
+.Feed{
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  height:100%;
+ 
+}
+body{
+  background:black;
+}
+.Titulo{
+  margin:auto;
+}
+.Titulo h1{
+  color:white;
+}
+
+.Post{
+  background:white;
+  width: 200px;
+  height:200px;
+  margin:auto;
+  position:relative;
+  margin-top:25px;
+}
+.Top{
+  position:absolute;
+  background: white;
+  width:200px;
+  height:20px;
+  display:flex;
+}
+.Texto1,.Texto2{
+  font-size:9px;
+  margin-top:-10px;
+}
+.Texto2{
+  margin-left:100px;
+}
+.imagen{
+  width:200px;
+  height:170px;
+
+}
+
+.imagen img {
+  width: 100%;   
+  height: 100%;   
+}
+.Pie{
+  position:absolute;
+  font-size:10px;
+  margin:auto;
+  width:100%;
+  height:100%;
+}
